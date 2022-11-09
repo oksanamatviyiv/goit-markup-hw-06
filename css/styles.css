@@ -1149,12 +1149,12 @@ display: none;
 transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-check:checked + .check-box {
+.check-box:checked + .icon-check {
   border-color: var(--accent-color);
   background-color: var(--accent-color);
   fill: var(--primary-white-color);
 }
 
-.mail-swnd {
+.mail-send {
   margin-bottom: 0;
 }
