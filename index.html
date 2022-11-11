@@ -224,29 +224,29 @@
                     </div>
                     <div class="card-links">
                     <ul class=" soc-lists">
-                      <li class="soc-list ">
-                        <a href="" class="soc-link">
+                      <li class="soc-list">
+                        <a href="" class="soc-link card-link">
                           <svg class="soc-item">
                             <use class="item-inst" href="./images/icons.svg#inst" width="20px" height="20px"></use>
                           </svg>
                         </a>
                       </li>
-                      <li class="soc-list ">
-                        <a href="" class="soc-link">
+                      <li class="soc-list">
+                        <a href="" class="soc-link card-link">
                           <svg class="soc-item">
                             <use class="item-twit" href="./images/icons.svg#twit" width="20px" height="20px"></use>
                           </svg>
                         </a>
                       </li>
-                      <li class="soc-list ">
-                          <a href="" class="soc-link">
+                      <li class="soc-list">
+                          <a href="" class="soc-link card-link">
                             <svg class="soc-item">
                               <use class="item-faceb" href="./images/icons.svg#faceb" width="20px" height="20px"></use>
                             </svg>
                           </a>
                       </li>
-                      <li class="soc-list ">
-                          <a href="" class="soc-link ">
+                      <li class="soc-list">
+                          <a href="" class="soc-link card-link">
                             <svg class="soc-item">
                               <use class="item-linked" href="./images/icons.svg#linked" width="20px" height="20px"></use>
                             </svg>
@@ -449,15 +449,14 @@
           </label>
           <label>
             Коментар
-            <textarea name="comment" class="modal-input modal-comment" placeholder="Введіть текст"></textarea>
+            <textarea style="resize:none" name="comment" class="modal-input modal-comment" placeholder="Введіть текст"></textarea>
           </label>
-          <div class="modal-check">
-          <label for="mail-send">
+          <label class="modal-send" for="mail-send">
+            <div class="modal-check">
             <input class="check-box" type="checkbox"  name="mail-send" id="mail-send" />
             <svg class="icon-check"> 
-              <use  class="icon-user-modal" href="./images/icons.svg#icon-check-mark" width="11px" height="8px"></use>
+              <use  class="icon-user-modal" href="./images/icons.svg#icon-check-mark" width="15px" height="14px"></use>
             </svg>
-          </label>
             <span class="text-check" >Погоджуюся з розсилкою та приймаю
               <a href="" class="send-link">
               Умови договору
@@ -465,6 +464,8 @@
             </span>
           </div>
           <button class="button-modal" type="submit">Відправити</button>
+          </label>
+          
         </form>
       </div>
       </div>
